@@ -1,0 +1,133 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    align-items: center;
+    background-image: url('back5.jpg');
+    background-size: cover;
+            background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark grey background with 0.5 opacity */
+    color: #f9f9f9;
+    padding: 0px 0;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark grey background with 0.5 opacity */
+    color: #f9f9f9;
+    padding: 7px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: #f9f9f9;
+    text-decoration: none;
+    transition: color 0.3s ease; /* dodanie płynności zmiany koloru */
+}
+
+nav ul li a:hover {
+    color: #ccc; /* nowy kolor po najechaniu */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    background-color: rgba(242, 239, 239, 0.5); /* Dark grey background with 0.5 opacity */
+    padding: 20px; /* Adjusted padding for content */
+            margin-top: 20px; /* Margin from the button container */
+            border-radius: 10px; /* Rounded corners */
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer {
+    background: #333;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.languages-list {
+    padding: 0;
+}
+
+.languages-list li {
+    padding: 5px 0;
+    position: relative;
+}
+
+.languages-list li::before {
+    
+    position: absolute;
+    left: -.2em;  /* dostosowanie odstępu kropki od lewej strony */
+}
+
+
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    margin: 10px 0 5px;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    border: none;
+    background: #333;
+    color: #f9f9f9;
+    border-radius: 5px;
+    cursor: pointer;
+}
